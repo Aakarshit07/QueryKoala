@@ -39,5 +39,3 @@ const Search = () => {
 }
 
 export default Search;
-
-{/* <div className="flex justify-between items-center bg-black/75 border-neutral-300 p-1 w-1/2 m-1 rounded-md shadow-xl"> */}
