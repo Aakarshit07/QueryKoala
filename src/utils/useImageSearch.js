@@ -23,7 +23,7 @@ const useImageSearch = () => {
                     "size": "",
                     "type_image": "",
                     "layout": "",
-                    "max_results": 20
+                    "max_results": 15
                 })
             });
             const jsonData = await response.json();

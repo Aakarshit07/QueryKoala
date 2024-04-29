@@ -12,7 +12,7 @@ function Results() {
 
     if(isLoading) return <Loading />;
     return (
-        <div className="flex flex-wrap justify-between space-y-6 sm:px-56 px-4 py-6 h-[90vh]">
+        <div className="flex flex-wrap justify-between space-y-6 sm:px-56 px-4 py-6">
             {results && results?.map(({body, href, title}) => (
                 <div key={title} className="md:w-9/12 w-full">
                     <a href={href} target="_blank" rel="noreferrer" >
