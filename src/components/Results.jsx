@@ -7,7 +7,7 @@ function Results() {
     const {getResults , results, isLoading, searchTerm} = useResultContext();
 
     useEffect(()=>{
-        getResults();
+        if(searchTerm) getResults();
     }, [searchTerm]);
 
     if(isLoading) return <Loading />;

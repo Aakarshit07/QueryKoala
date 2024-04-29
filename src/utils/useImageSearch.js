@@ -12,7 +12,7 @@ const useImageSearch = () => {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json',
-                    'X-RapidAPI-Key': 'f478a75d6cmsh72f4a08427fc4cfp17e3dbjsn27ae32f698f4',
+                    'X-RapidAPI-Key': import.meta.env.VITE_API_KEY,
                     'X-RapidAPI-Host': 'google-api31.p.rapidapi.com'
                 },
                 body: JSON.stringify({
@@ -36,7 +36,7 @@ const useImageSearch = () => {
     }
         
     useEffect(() => {
-        fetcImages();
+        if(searchTerm) fetcImages();
     }, [searchTerm]);
 
     return images;
