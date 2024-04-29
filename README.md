@@ -59,10 +59,10 @@
 
 ## Demo Images
 
-![LighMode Preview](.png?raw=true)
+![LighMode Preview](https://github.com/Aakarshit07/QueryKoala/blob/main/src/assets/lightmode.png?raw=true)
 
-![Text Search Preview](.png?raw=true)
+![Text Search Preview](https://github.com/Aakarshit07/QueryKoala/blob/main/src/assets/imagesearch.png?raw=true)
 
-![Image Search Preview](.png?raw=true)
+![Image Search Preview](https://github.com/Aakarshit07/QueryKoala/blob/main/src/assets/lightmode.png?raw=true)
 
-![Video Search Preview](.png?raw=true)
+![Video Search Preview](https://github.com/Aakarshit07/QueryKoala/blob/main/src/assets/videosearch.png?raw=true)
